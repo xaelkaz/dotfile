@@ -45,3 +45,8 @@ function gunwipall() {
 export LDFLAGS="-L/opt/homebrew/opt/postgresql/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/postgresql/include"
 
+# Nix
+if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
+  . '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
+fi
+# End Nix
