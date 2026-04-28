@@ -1,2 +1,3 @@
 zed/embeddings/*
 zed/prompts/*
+.claude/
