@@ -6,6 +6,8 @@ return {
     empire = "",
     gear = "􀍟",
     cpu = "􀫥",
+    ram = "􀫦",
+    hackernews = "Y",
     nuke = "",
     clipboard = "􀉄",
 
